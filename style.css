@@ -1,0 +1,68 @@
+
+  
+  html{
+    scroll-behavior: smooth;
+    margin-left: 7%;
+    margin-right:7%;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .flex-container >div {
+    
+  width:fit-content;
+   font-size: 10px;
+    height: 20%;
+    text-align:center;
+    padding:3%;
+    
+  }
+  
+  .card:hover, a:hover,.logo:hover {
+    box-shadow: 0 1px 2px 1px rgb(189, 199, 197),0 1px 5px 0 rgba(213, 211, 211, 0.986);
+  }
+  .f{
+    font-family: Copperplate Gothic ;
+    text-shadow: px 1px 6px black;
+  }
+  p{
+      font-size: 10px;
+      font-family: "Times New Roman", Times, serif;
+  }
+  li,h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+  }
+  li:hover{
+      background-color: rgb(174, 229, 231);
+      font-size: large;
+     
+  }
+img{
+  width: 150px;
+  height: 75px;
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.918);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: rgb(23, 120, 10);
+}
